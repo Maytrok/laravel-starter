@@ -1,3 +1,7 @@
+# Laravel starter Application
+
+DO NOT USE this project to start a laravel application!
+
 
 ## Install Laravel
 [Install](https://laravel.com/docs#creating-a-laravel-project)
@@ -29,6 +33,13 @@ npm run dev
 [Install](https://laravel.com/docs/pulse#installation)
 composer require laravel/pulse
 php artisan vendor:publish --provider="Laravel\Pulse\PulseServiceProvider"
+
+
+## Install Laravel Filament
+[Install](https://filamentphp.com/docs/3.x/panels/installation#installation)
+composer require filament/filament:"^3.2" -W
+ 
+php artisan filament:install --panels
 
 
 
