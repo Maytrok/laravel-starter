@@ -14,3 +14,13 @@ Add following line to composer.json
 "@php artisan ide-helper:generate"
 
 
+## Install Breeze
+[Laravel](https://laravel.com/docs/#starter-kits#laravel-breeze-installation)
+composer require laravel/breeze --dev
+
+## Install Inertia with Vue
+[Install](https://laravel.com/docs/10.x/starter-kits#breeze-and-inertia)
+php artisan breeze:install
+php artisan migrate
+npm install
+npm run dev
