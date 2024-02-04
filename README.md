@@ -42,6 +42,26 @@ composer require filament/filament:"^3.2" -W
 php artisan filament:install --panels
 
 
+## Install Vuetify
+[Install](https://medium.com/@horaceh/laravel-jetstream-inertia-and-vuetify-8aa2ab3c1e41)
+npm install vuetify
+
+Update resources/js/app.js
+
+// Vuetify
+import '@mdi/font/css/materialdesignicons.css'
+import 'vuetify/styles'
+import { createVuetify } from 'vuetify'
+import * as components from 'vuetify/components'
+import * as directives from 'vuetify/directives'
+
+const vuetify = createVuetify({
+    components,
+    directives
+})
+
+.use(vuetify)
+
 
 
 
