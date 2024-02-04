@@ -21,6 +21,21 @@ composer require laravel/breeze --dev
 ## Install Inertia with Vue
 [Install](https://laravel.com/docs/10.x/starter-kits#breeze-and-inertia)
 php artisan breeze:install
-php artisan migrate
 npm install
 npm run dev
+
+
+## Install Laravel Pulse
+[Install](https://laravel.com/docs/pulse#installation)
+composer require laravel/pulse
+php artisan vendor:publish --provider="Laravel\Pulse\PulseServiceProvider"
+
+
+
+
+
+
+
+
+## Migrate
+php artisan migrate
